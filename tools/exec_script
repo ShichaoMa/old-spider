@@ -1,0 +1,4 @@
+192.168.21.35|22|longen|longen      echo longen |sudo -S find /var/lib/docker/containers -size +1G -exec rm \{\} \;    python rm_docker_image_or_container.py container    python rm_docker_image_or_container.py image
+192.168.21.36|22|longen|longen      echo longen |sudo -S find /var/lib/docker/containers -size +1G -exec rm \{\} \;    python rm_docker_image_or_container.py container    python rm_docker_image_or_container.py image
+192.168.21.37|22|longen|longen      echo longen |sudo -S find /var/lib/docker/containers -size +1G -exec rm \{\} \;    python rm_docker_image_or_container.py container    python rm_docker_image_or_container.py image
+192.168.21.38|22|longen|longen      echo longen |sudo -S find /var/lib/docker/containers -size +1G -exec rm \{\} \;    python rm_docker_image_or_container.py container    python rm_docker_image_or_container.py image

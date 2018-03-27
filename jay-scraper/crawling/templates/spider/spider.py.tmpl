@@ -1,0 +1,30 @@
+# -*- coding:utf-8 -*-
+
+from . import JaySpider
+from ..utils import CustomLoader, enrich_wrapper
+from ..items.{{class_name.lower()}}_item import {{class_name}}Item
+
+
+class {{class_name}}Spider(JaySpider):
+    name = "{{spider_name}}"
+    # 分类抓取的时候使用这两个属性
+    item_xpath = ({{item_xpath[1]}}{{item_xpath[0]}}{{item_xpath[1]}},)
+    page_xpath = ({{page_xpath[1]}}{{page_xpath[0]}}{{page_xpath[1]}},)
+
+    custom_settings = {
+        "ITEM_PIPELINES": {
+            'crawling.pipelines.%s_pipeline.%sKafkaPipeline' % (
+                name, name.capitalize()): None if JaySpider.debug else 100,
+            'crawling.pipelines.%s_pipeline.%sFilePipeline' % (
+                name, name.capitalize()): 100 if JaySpider.debug else None,
+        },
+    }
+
+    @staticmethod
+    def get_base_loader(response):
+        return CustomLoader(item={{class_name}}Item())
+
+    @enrich_wrapper
+    def enrich_data(self, item_loader, response):
+{% for prop, (prefix, typ, expression, sep) in props.items() %}        item_loader.add_{{typ}}("{{prop}}", {{prefix}}{{sep}}{{expression}}{{sep}})
+{% endfor %}

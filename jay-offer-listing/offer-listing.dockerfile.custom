@@ -1,0 +1,8 @@
+RUN pip3.6 install toolkity -i https://pypi.douban.com/simple
+RUN pip3.6 install requests -i https://pypi.douban.com/simple
+RUN pip3.6 install redis -i https://pypi.douban.com/simple
+RUN pip3.6 install bs4 -i https://pypi.douban.com/simple
+RUN pip3.6 install aiohttp -i https://pypi.douban.com/simple
+RUN mkdir /app
+COPY jay-offer-listing /app
+WORKDIR /app

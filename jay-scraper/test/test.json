@@ -1,0 +1,381 @@
+{
+  variants: [
+    {
+      "v": "USD100BS-10.5-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "10.5"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-10-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "10"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-11.5-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "11.5"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-11-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "11"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-12.5-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "12.5"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-12-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "12"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-13-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "13"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-14-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "14"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-4.5-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "4.5"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-4-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "4"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-5.5-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "5.5"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-5-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "5"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-6-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "6"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-7-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "7"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-8-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "8"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    },
+    {
+      "v": "USD100BS-9.5-D",
+      "c": "USD100BS",
+      "m": "USD100-V1",
+      "a": [
+        {
+          "n": "custom.color",
+          "v": "Black with Silver"
+        },
+        {
+          "n": "size",
+          "v": "9.5"
+        },
+        {
+          "n": "width",
+          "v": "D"
+        }
+      ]
+    }
+  ],
+  images: [
+    {
+      "l": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_14_i?wid=300\u0026hei=281",
+      "d": true,
+      "c": "USD100BS",
+      "f": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_14_i?wid=640\u0026hei=600",
+      "t": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_14_i?wid=70\u0026hei=66"
+    },
+    {
+      "l": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_02_i?wid=300\u0026hei=281",
+      "d": false,
+      "c": "USD100BS",
+      "f": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_02_i?wid=640\u0026hei=600",
+      "t": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_02_i?wid=70\u0026hei=66"
+    },
+    {
+      "l": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_03_i?wid=300\u0026hei=281",
+      "d": false,
+      "c": "USD100BS",
+      "f": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_03_i?wid=640\u0026hei=600",
+      "t": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_03_i?wid=70\u0026hei=66"
+    },
+    {
+      "l": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_04_i?wid=300\u0026hei=281",
+      "d": false,
+      "c": "USD100BS",
+      "f": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_04_i?wid=640\u0026hei=600",
+      "t": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_04_i?wid=70\u0026hei=66"
+    },
+    {
+      "l": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_06_i?wid=300\u0026hei=281",
+      "d": false,
+      "c": "USD100BS",
+      "f": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_06_i?wid=640\u0026hei=600",
+      "t": "https://s7d5.scene7.com/is/image/NB/usd100bs_nb_06_i?wid=70\u0026hei=66"
+    },
+    {
+      "l": "https://s7d5.scene7.com/is/image/NB/usd100or_nb_14_i?wid=300\u0026hei=281",
+      "d": false,
+      "c": "USD100OR",
+      "f": "https://s7d5.scene7.com/is/image/NB/usd100or_nb_14_i?wid=640\u0026hei=600",
+      "t": "https://s7d5.scene7.com/is/image/NB/usd100or_nb_14_i?wid=70\u0026hei=66"
+    },
+    {
+      "l": "https://s7d5.scene7.com/is/image/NB/usd100or_nb_15_i?wid=300\u0026hei=281",
+      "d": false,
+      "c": "USD100OR",
+      "f": "https://s7d5.scene7.com/is/image/NB/usd100or_nb_15_i?wid=640\u0026hei=600",
+      "t": "https://s7d5.scene7.com/is/image/NB/usd100or_nb_15_i?wid=70\u0026hei=66"
+    },
+    {
+      "l": "https://s7d5.scene7.com/is/image/NB/usd100or_nb_16_i?wid=300\u0026hei=281",
+      "d": false,
+      "c": "USD100OR",
+      "f": "https://s7d5.scene7.com/is/image/NB/usd100or_nb_16_i?wid=640\u0026hei=600",
+      "t": "https://s7d5.scene7.com/is/image/NB/usd100or_nb_16_i?wid=70\u0026hei=66"
+    }
+  ],
+  children: [
+    {
+      "c": "USD100BS",
+      "v": "Black with Silver"
+    },
+    {
+      "c": "USD100OR",
+      "v": "Orange with Blue"
+    }
+  ],
+  inventoryValidation: 'Smart',
+  neverDisablePrimaryButtons: true,
+  resetOnInvalidSelection: false,
+  enableInvalidSelection: true,
+  maxAddToCartQuantity: 15
+}

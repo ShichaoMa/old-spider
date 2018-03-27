@@ -1,0 +1,7 @@
+RUN apt-get install -y --no-install-recommends tesseract-ocr
+RUN pip3.6 install toolkity -i https://pypi.douban.com/simple
+RUN pip3.6 install pillow -i https://pypi.douban.com/simple
+RUN pip3.6 install pytesseract -i https://pypi.douban.com/simple
+RUN mkdir /app
+COPY jay-captcha /app
+WORKDIR /app

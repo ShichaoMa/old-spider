@@ -1,0 +1,7 @@
+export KAFKA_HOSTS=192.168.200.31:9092
+export broker_url='amqp://test:test@localhost:5672/myvhost'
+export DEBUG=True
+export IMAGES_STORE=http://192.168.200.71:8888
+export CONCURRENCY=10
+export REDIS_HOST=127.0.0.1
+export REDIS_URL=redis://127.0.0.1:6379/1

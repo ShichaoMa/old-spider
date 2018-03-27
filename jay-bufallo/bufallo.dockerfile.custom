@@ -1,0 +1,10 @@
+RUN pip3.6 install celery -i https://pypi.douban.com/simple
+RUN pip3.6 install requests -i https://pypi.douban.com/simple
+RUN pip3.6 install redis -i https://pypi.douban.com/simple
+RUN pip3.6 install pillow -i https://pypi.douban.com/simple
+RUN pip3.6 install kafka-python -i https://pypi.douban.com/simple
+RUN pip3.6 install influxdb -i https://pypi.douban.com/simple
+RUN pip3.6 install toolkity==1.7.4
+RUN mkdir /app
+COPY jay-bufallo /app
+WORKDIR /app

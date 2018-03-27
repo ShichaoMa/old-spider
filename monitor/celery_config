@@ -1,0 +1,6 @@
+export REDIS_HOST=192.168.200.150
+export broker_url=redis://192.168.200.150/2
+export CONCURRENCY=1
+export IMAGES_STORE=http://192.168.200.79:8888/
+export CACHE_URI=redis://192.168.200.150/3
+

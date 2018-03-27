@@ -1,0 +1,11 @@
+RUN pip3.6 install toolkity -i https://pypi.douban.com/simple
+RUN pip3.6 install kafka-python -i https://pypi.douban.com/simple
+RUN pip3.6 install requests -i https://pypi.douban.com/simple
+RUN pip3.6 install redis -i https://pypi.douban.com/simple
+RUN pip3.6 install googletrans -i https://pypi.douban.com/simple
+RUN pip3.6 install pymongo -i https://pypi.douban.com/simple
+RUN pip3.6 install influxdb -i https://pypi.douban.com/simple
+RUN pip3.6 install celery -i https://pypi.douban.com/simple
+RUN mkdir /app
+COPY jay-controller /app
+WORKDIR /app

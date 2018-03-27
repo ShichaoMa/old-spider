@@ -1,0 +1,1610 @@
+{
+ "version": "1.0.0",
+ "command": "DISCOVER",
+ "trace": {
+  "app": "jay",
+  "seed": "https://www.amazon.com/s/s/ref=sr_nr_p_6_0?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147440011%2Cn%3A679337011%2Cn%3A6127771011%2Cn%3A679377011%2Cp_89%3AReebok%2Cp_6%3AATVPDKIKX0DER&bbn=679377011&ie=UTF8&qid=1513833661&rnid=2661622011",
+  "proxy": "http://mh138.headedeagle.com:12017",
+  "crawlid": "roc_2945_47609",
+  "fingerprint": ""
+ },
+ "references": [
+  {
+   "item_type": "Image",
+   "item_id": "AMZN#B073WSC8R7::Initial::MAIN",
+   "url": "https://images-na.ssl-images-amazon.com/images/I/814O9Y4hNwL._UL1500_.jpg",
+   "path": "/amazon/03c9169eefd7310187de073c33c6daed7cca0427.jpg",
+   "init": true,
+   "type": "MAIN",
+   "origin": true
+  },
+  {
+   "item_type": "Image",
+   "item_id": "AMZN#B073WSC8R7::Initial::FRNT",
+   "url": "https://images-na.ssl-images-amazon.com/images/I/71cgyhJzghL._UL1500_.jpg",
+   "path": "/amazon/77f09cfb42ebdf2e99f6df5031beee41da5abbb0.jpg",
+   "init": false,
+   "type": "FRNT",
+   "origin": true
+  },
+  {
+   "item_type": "Image",
+   "item_id": "AMZN#B073WSC8R7::Initial::BACK",
+   "url": "https://images-na.ssl-images-amazon.com/images/I/71DfJAuP8sL._UL1500_.jpg",
+   "path": "/amazon/eca58f9683f61ee330446c31e99abe903325e91c.jpg",
+   "init": false,
+   "type": "BACK",
+   "origin": true
+  },
+  {
+   "item_type": "Image",
+   "item_id": "AMZN#B073WSC8R7::Initial::BOTT",
+   "url": "https://images-na.ssl-images-amazon.com/images/I/71N5Oidz8BL._UL1500_.jpg",
+   "path": "/amazon/8baf2b1a8cf20ffc26f1aa1a6dbb0d704296daa7.jpg",
+   "init": false,
+   "type": "BOTT",
+   "origin": true
+  },
+  {
+   "item_type": "Image",
+   "item_id": "AMZN#B073WSC8R7::Initial::TOPP",
+   "url": "https://images-na.ssl-images-amazon.com/images/I/81BuHcSDCbL._UL1500_.jpg",
+   "path": "/amazon/4384d748bc495ade8000e94486634a7ad5c9cd19.jpg",
+   "init": false,
+   "type": "TOPP",
+   "origin": true
+  },
+  {
+   "item_type": "Image",
+   "item_id": "AMZN#B073WSC8R7::Initial::RGHT",
+   "url": "https://images-na.ssl-images-amazon.com/images/I/81jsSVRN82L._UL1500_.jpg",
+   "path": "/amazon/107edf06f3258cf56ea28b94875953f4ec6e9cda.jpg",
+   "init": false,
+   "type": "RGHT",
+   "origin": true
+  },
+  {
+   "item_type": "Image",
+   "item_id": "AMZN#B073WSC8R7::Initial::PAIR",
+   "url": "https://images-na.ssl-images-amazon.com/images/I/81JDU9wCbnL._UL1500_.jpg",
+   "path": "/amazon/72212a9bc991c6e26354f22edff95e09e7522b6c.jpg",
+   "init": false,
+   "type": "PAIR",
+   "origin": true
+  },
+  {
+   "item_type": "Image",
+   "item_id": "AMZN#B073WSC8R7::Initial::LEFT",
+   "url": "https://images-na.ssl-images-amazon.com/images/I/81wp5neSZmL._UL1500_.jpg",
+   "path": "/amazon/628924f119485da1b7942bcd073d6f5de3905dc3.jpg",
+   "init": false,
+   "type": "LEFT",
+   "origin": true
+  },
+  {
+   "item_type": "Album",
+   "item_id": "AMZN#B073WSC8R7::Initial",
+   "images": [
+    {
+     "item_id": "AMZN#B073WSC8R7::Initial::MAIN",
+     "item_type": "Image"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7::Initial::FRNT",
+     "item_type": "Image"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7::Initial::BACK",
+     "item_type": "Image"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7::Initial::BOTT",
+     "item_type": "Image"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7::Initial::TOPP",
+     "item_type": "Image"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7::Initial::RGHT",
+     "item_type": "Image"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7::Initial::PAIR",
+     "item_type": "Image"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7::Initial::LEFT",
+     "item_type": "Image"
+    }
+   ]
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::176671",
+   "key": "",
+   "value": "9.5 B(M) US"
+  },
+  {
+   "item_type": "Dimension::Color",
+   "item_id": "AMZN#B073WSC8R7::e95850",
+   "key": "",
+   "value": "Clay Tint/White"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071JMLC1Z",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415584,
+    "url": "https://www.amazon.com/gp/product/B071JMLC1Z/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 65.0,
+    "price": 44.53,
+    "stock": 1,
+    "availability": true,
+    "availability_reason": "Only 1 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::176671",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::db0ca6",
+   "key": "",
+   "value": "8.5 B(M) US"
+  },
+  {
+   "item_type": "Dimension::Color",
+   "item_id": "AMZN#B073WSC8R7::fb4621",
+   "key": "",
+   "value": "Sandstone/White"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072JV1WGL",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415587,
+    "url": "https://www.amazon.com/gp/product/B072JV1WGL/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 5,
+    "availability": true,
+    "availability_reason": "Only 5 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::db0ca6",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::e301ea",
+   "key": "",
+   "value": "11 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072JV2RG4",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415589,
+    "url": "https://www.amazon.com/gp/product/B072JV2RG4/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 1,
+    "availability": true,
+    "availability_reason": "Only 1 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::e301ea",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::de64ea",
+   "key": "",
+   "value": "9 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071JMLDF2",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415591,
+    "url": "https://www.amazon.com/gp/product/B071JMLDF2/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 2,
+    "availability": true,
+    "availability_reason": "Only 2 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::de64ea",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072MFYCBK",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415593,
+    "url": "https://www.amazon.com/gp/product/B072MFYCBK/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 1,
+    "availability": true,
+    "availability_reason": "Only 1 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::e301ea",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::42c928",
+   "key": "",
+   "value": "10.5 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072JV2RF7",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415595,
+    "url": "https://www.amazon.com/gp/product/B072JV2RF7/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 3,
+    "availability": true,
+    "availability_reason": "Only 3 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::42c928",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::797e63",
+   "key": "",
+   "value": "5 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071ZZSFYS",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415597,
+    "url": "https://www.amazon.com/gp/product/B071ZZSFYS/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 65.0,
+    "price": 51.76,
+    "stock": 2,
+    "availability": true,
+    "availability_reason": "Only 2 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::797e63",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072MFYBX7",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415600,
+    "url": "https://www.amazon.com/gp/product/B072MFYBX7/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 3,
+    "availability": true,
+    "availability_reason": "Only 3 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::de64ea",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071JMLC1B",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415603,
+    "url": "https://www.amazon.com/gp/product/B071JMLC1B/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 3,
+    "availability": true,
+    "availability_reason": "Only 3 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::176671",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::f360a3",
+   "key": "",
+   "value": "5.5 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072JV1XLH",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415606,
+    "url": "https://www.amazon.com/gp/product/B072JV1XLH/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 2,
+    "availability": true,
+    "availability_reason": "Only 2 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::f360a3",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::971bf2",
+   "key": "",
+   "value": "7 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071JML94R",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415608,
+    "url": "https://www.amazon.com/gp/product/B071JML94R/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 2,
+    "availability": true,
+    "availability_reason": "Only 2 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::971bf2",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::92dabd",
+   "key": "",
+   "value": "6.5 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072QCCKXD",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415610,
+    "url": "https://www.amazon.com/gp/product/B072QCCKXD/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 3,
+    "availability": true,
+    "availability_reason": "Only 3 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::92dabd",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::e1ebeb",
+   "key": "",
+   "value": "10 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071WKRNDD",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415612,
+    "url": "https://www.amazon.com/gp/product/B071WKRNDD/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 41.81,
+    "stock": 5,
+    "availability": true,
+    "availability_reason": "Available from .",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::e1ebeb",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::b93316",
+   "key": "",
+   "value": "6 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071ZZT24Z",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415614,
+    "url": "https://www.amazon.com/gp/product/B071ZZT24Z/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 2,
+    "availability": true,
+    "availability_reason": "Only 2 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::b93316",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071G1PSKG",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415616,
+    "url": "https://www.amazon.com/gp/product/B071G1PSKG/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 3,
+    "availability": true,
+    "availability_reason": "Only 3 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::42c928",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072JV1XMB",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415621,
+    "url": "https://www.amazon.com/gp/product/B072JV1XMB/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 1,
+    "availability": true,
+    "availability_reason": "Only 1 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::db0ca6",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::39cc70",
+   "key": "",
+   "value": "7.5 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071G1PT1L",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415624,
+    "url": "https://www.amazon.com/gp/product/B071G1PT1L/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 2,
+    "availability": true,
+    "availability_reason": "Only 2 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::39cc70",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071ZZSZZN",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415626,
+    "url": "https://www.amazon.com/gp/product/B071ZZSZZN/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 2,
+    "availability": true,
+    "availability_reason": "Only 2 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::f360a3",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Dimension::Size",
+   "item_id": "AMZN#B073WSC8R7::541f9c",
+   "key": "",
+   "value": "8 B(M) US"
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072MFYF9J",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415628,
+    "url": "https://www.amazon.com/gp/product/B072MFYF9J/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 5,
+    "availability": true,
+    "availability_reason": "In Stock. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::541f9c",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::fb4621",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071JMKXX8",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415630,
+    "url": "https://www.amazon.com/gp/product/B071JMKXX8/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 65.0,
+    "price": 44.53,
+    "stock": 2,
+    "availability": true,
+    "availability_reason": "Only 2 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::39cc70",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071JML8BC",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415632,
+    "url": "https://www.amazon.com/gp/product/B071JML8BC/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 65.0,
+    "price": 61.48,
+    "stock": 1,
+    "availability": true,
+    "availability_reason": "Only 1 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::b93316",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B071JMLC5R",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415636,
+    "url": "https://www.amazon.com/gp/product/B071JMLC5R/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 0.0,
+    "price": 65.0,
+    "stock": 2,
+    "availability": true,
+    "availability_reason": "Only 2 left in stock - order soon. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::92dabd",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Sku",
+   "item_id": "AMZN#B073WSC8R7#B072QBL79N",
+   "tags": [],
+   "meta": {
+    "timestamp": 1521888415640,
+    "url": "https://www.amazon.com/gp/product/B072QBL79N/ref=twister_dp_update?ie=UTF8&psc=1",
+    "status_code": "NORMAL"
+   },
+   "dyno_info": {
+    "list_price": 65.0,
+    "price": 44.53,
+    "stock": 5,
+    "availability": true,
+    "availability_reason": "In Stock. Ships from and sold by Amazon.com.",
+    "currency": "USD"
+   },
+   "steady_info": {
+    "upc": "",
+    "model_number": "",
+    "ean": "",
+    "mpn": "",
+    "part_number": "",
+    "condition": "new",
+    "condition_detail": "",
+    "album": {
+     "item_id": "AMZN#B073WSC8R7::Initial",
+     "item_type": "Album"
+    },
+    "dimensions": [
+     {
+      "item_id": "AMZN#B073WSC8R7::541f9c",
+      "item_type": "Dimension::Size"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::e95850",
+      "item_type": "Dimension::Color"
+     }
+    ],
+    "bullets": [
+     {
+      "item_id": "AMZN#B073WSC8R7::74b60c",
+      "item_type": "Bullet::Title"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::9ce190",
+      "item_type": "Bullet::Features"
+     },
+     {
+      "item_id": "AMZN#B073WSC8R7::b82e48",
+      "item_type": "Bullet::Desc"
+     }
+    ]
+   }
+  },
+  {
+   "item_type": "Bullet::Title",
+   "item_id": "AMZN#B073WSC8R7::74b60c",
+   "en": "Reebok Women's CL Nylon Neutrals Sneaker"
+  },
+  {
+   "item_type": "Bullet::Features",
+   "item_id": "AMZN#B073WSC8R7::9ce190",
+   "en": "[\" Suede\", \" Imported\", \" Rubber sole\", \" Shaft measures approximately low-topfrom arch\", \" Nylon / Suede upper\", \" Low-cut design\", \" Die-cut EVA midsole\"]"
+  },
+  {
+   "item_type": "Bullet::Desc",
+   "item_id": "AMZN#B073WSC8R7::b82e48",
+   "en": "For low-key style and comfort, look to these Reebok classic leather neutrals. The blended nylon and suede upper offers soft yet supportive fit on this heritage-styled shoe. The rubber outsole makes these last."
+  }
+ ],
+ "items": [
+  {
+   "item_type": "Spu",
+   "item_id": "AMZN#B073WSC8R7",
+   "meta": {
+    "source_site_code": "AMZN",
+    "brand_code": "reebok",
+    "gender_code": "female",
+    "taxon_code": "walking_shoes",
+    "brand_id": 134,
+    "source_site_id": 1,
+    "gender_id": 2,
+    "taxon_id": 82,
+    "size_mapping_table_code": "213",
+    "width_mapping_table_code": null,
+    "url": "https://www.amazon.com/Reebok-Womens-Nylon-Neutrals-Walking/dp/B072QBL79N/ref=sr_1_17?m=ATVPDKIKX0DER&s=apparel&ie=UTF8&qid=1521880674&sr=1-17&nodeID=679377011&psd=1&refinements=p_89%3AReebok%2Cp_6%3AATVPDKIKX0DER",
+    "timestamp": 1521888415676,
+    "status_code": "NORMAL",
+    "all_skus": true
+   },
+   "tags": [],
+   "skus": [
+    {
+     "item_id": "AMZN#B073WSC8R7#B071JMLC1Z",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072JV1WGL",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072JV2RG4",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071JMLDF2",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072MFYCBK",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072JV2RF7",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071ZZSFYS",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072MFYBX7",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071JMLC1B",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072JV1XLH",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071JML94R",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072QCCKXD",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071WKRNDD",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071ZZT24Z",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071G1PSKG",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072JV1XMB",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071G1PT1L",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071ZZSZZN",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072MFYF9J",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071JMKXX8",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071JML8BC",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B071JMLC5R",
+     "item_type": "Sku"
+    },
+    {
+     "item_id": "AMZN#B073WSC8R7#B072QBL79N",
+     "item_type": "Sku"
+    }
+   ]
+  }
+ ]
+}

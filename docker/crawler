@@ -1,0 +1,47 @@
+FROM ubuntu
+
+MAINTAINER Shichao Ma
+
+COPY Python-3.6.0.tgz /
+
+RUN apt-get clean && apt-get update
+
+RUN apt-get install -y locales
+
+RUN locale-gen en_US.UTF-8
+
+RUN update-locale LANG=en_US.UTF-8
+
+ENV LANG en_US.UTF-8
+
+COPY Shanghai /etc/localtime
+
+COPY timezone /etc
+
+RUN apt-get install -y --no-install-recommends libc6-dev gcc make
+
+RUN apt-get install -y --no-install-recommends make build-essential \
+libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm
+
+RUN apt-get install -y python-dev python-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev
+
+# 安装python3.6
+RUN tar zxvf Python-3.6.0.tgz
+
+RUN cd Python-3.6.0 && ./configure --bindir=/bin/
+
+RUN cd Python-3.6.0 && make && make install
+
+COPY crawler_requirements.txt /tmp/
+
+RUN mkdir -p /app/crawling/
+
+RUN pip3.6 install -r /tmp/crawler_requirements.txt -i https://pypi.douban.com/simple
+
+COPY scrapy.cfg /app
+
+COPY crawling /app/crawling/
+
+COPY scrapy_process.py /app
+
+WORKDIR /app

@@ -1,0 +1,38 @@
+import json
+
+from . import KafkaPipeline, FilePipeline
+from .formatter import BaseAdapter
+
+
+class {{class_name}}PipelineAdapter(BaseAdapter):
+
+    @staticmethod
+    def get_type(image_block):
+        pass
+
+    def process_custom(self, spu_id, total_albums, package, item):
+        """
+        主要用来获取bullet和skus
+        :param spu_id:
+        :param total_albums:
+        :param package:
+        :param item:
+        :return:
+        """
+        skus = list()
+{% for prop, _ in props.items() %}{% if prop in ['title', 'description'] %}        {{prop}} = self.enrich_bullet(spu_id, item["{{prop}}"], "{{prop}}")
+        package["references"].append({{prop}}){% endif %}{% if prop in ['features', 'specs'] %}        {{prop}} = self.enrich_bullet(spu_id, json.dumps(item["{{prop}}"]), "{{prop}}")
+        package["references"].append({{prop}}){% endif %}
+{% endfor %}
+        from toolkit import debugger
+        debugger()
+        return skus
+
+
+class {{class_name}}KafkaPipeline({{class_name}}PipelineAdapter, KafkaPipeline):
+    pass
+
+
+class {{class_name}}FilePipeline({{class_name}}PipelineAdapter, FilePipeline):
+    pass
+

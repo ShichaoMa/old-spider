@@ -1,0 +1,8 @@
+RUN pip3.6 install bottle -i https://pypi.douban.com/simple
+RUN pip3.6 install redis -i https://pypi.douban.com/simple
+RUN pip3.6 install jinja2 -i https://pypi.douban.com/simple
+RUN pip3.6 install requests -i https://pypi.douban.com/simple
+RUN pip3.6 install toolkity==1.7.1
+RUN mkdir /app
+COPY jay-service /app
+WORKDIR /app

@@ -1,0 +1,9 @@
+RUN apt-get install -y libfontconfig ca-certificates
+RUN pip3.6 install redis -i https://pypi.douban.com/simple
+RUN pip3.6 install bottle -i https://pypi.douban.com/simple
+COPY docker/phantomjs-2.1.1-linux-x86_64.tar.bz2 /tmp/phantomjs-2.1.1-linux-x86_64.tar.bz2
+RUN tar -jxvf /tmp/phantomjs-2.1.1-linux-x86_64.tar.bz2
+RUN cp phantomjs-2.1.1-linux-x86_64/bin/phantomjs  /bin/
+RUN mkdir /app
+COPY jay-jomashop-captcha /app
+WORKDIR /app
